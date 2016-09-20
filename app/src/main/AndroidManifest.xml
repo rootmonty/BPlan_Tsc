@@ -20,7 +20,6 @@
         </activity>
         <activity android:name=".BottomMain">
 
-
         </activity>
         <activity android:name=".Firebase.LoginActivity">
             <intent-filter>
@@ -28,6 +27,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity android:name=".Firebase.ResetPasswordActivity" />
         <activity android:name=".Firebase.SignupActivity" />

@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tabs>
     <tab
+        activeColor="#FF0000"
+        badgeBackgroundColor="#FF0000"
+        barColorWhenSelected="#FF0000"
+        icon="@drawable/icl"
         id="@+id/general"
-        icon="@drawable/icl"
-        title="General"
-        barColorWhenSelected="#5D4037" />
+        inActiveColor="#00FF00"
+        title="General" />
     <tab
+        activeColor="#FF0000"
+        badgeBackgroundColor="#FF0000"
+        barColorWhenSelected="#FF0000"
+        icon="@drawable/icl"
         id="@+id/staff"
-        title="Staff"
-        icon="@drawable/icl"
-        barColorWhenSelected="#5D4037" />
+        inActiveColor="#00FF00"
+        title="Staff" />
     <tab
-        id="@+id/teacher"
-        title="Teacher"
+        activeColor="#FF0000"
+        badgeBackgroundColor="#FF0000"
+        barColorWhenSelected="#5D4037"
         icon="@drawable/icl"
-        barColorWhenSelected="#5D4037" />
+        id="@+id/teacher"
+        inActiveColor="#00FF00"
+        title="Teacher" />
 </tabs>
