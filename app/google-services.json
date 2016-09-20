@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "549935712158",
+    "firebase_url": "https://bplan-f282e.firebaseio.com",
+    "project_id": "bplan-f282e",
+    "storage_bucket": "bplan-f282e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549935712158:android:a1e7e0c34b57153b",
+        "android_client_info": {
+          "package_name": "badebaba.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549935712158-5anmgd8gf5ko1rjkjm417jd5jhcnobkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC01Kpe0CGq0RDh7y4H9OzMMZ_l54t7r0E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
