@@ -32,6 +32,7 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.io.Closeable;
 
 import badebaba.myapplication.R;
 
@@ -129,6 +130,7 @@ public class MainActivityOtp extends AppCompatActivity implements View.OnClickLi
                                         confirmOtp();
                                     } catch (JSONException e) {
                                         e.printStackTrace();
+
                                     }
                                 }
                             }
@@ -179,10 +181,10 @@ public class MainActivityOtp extends AppCompatActivity implements View.OnClickLi
                         //   Log.i("working:",response);
                         loading.dismiss();
                         try {
-                            Log.v("working:", response);
+                            // Log.v("working:", response);
 
                             //Creating the json object from the response
-                            JSONObject jsonResponse = new JSONObject(response);
+                            JSONObject jsonResponse = new JSONObject(response).getJSONObject(Config.TAG_RESPONSE);
 
                             //If it is success
                             if (jsonResponse.getString(Config.TAG_RESPONSE).equalsIgnoreCase("Success")) {

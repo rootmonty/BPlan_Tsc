@@ -14,18 +14,12 @@ import badebaba.myapplication.R;
 
 public class Success extends AppCompatActivity {
 
-    Handler handler = new Handler();
+    //  Handler handler = new Handler();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.otpsuccess);
 
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent(Success.this, BottomMain.class));
-            }
-        });
     }
 }
