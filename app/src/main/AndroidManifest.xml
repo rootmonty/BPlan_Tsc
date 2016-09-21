@@ -22,15 +22,19 @@
 
         </activity>
         <activity android:name=".Firebase.LoginActivity">
+
+
+        </activity>
+        <activity android:name=".Firebase.ResetPasswordActivity" />
+        <activity android:name=".Firebase.SignupActivity" />
+        <activity android:name=".Db_Authentication.MainActivityOtp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".Firebase.ResetPasswordActivity" />
-        <activity android:name=".Firebase.SignupActivity" />
+        <activity android:name=".Db_Authentication.Success"></activity>
     </application>
 
 </manifest>
