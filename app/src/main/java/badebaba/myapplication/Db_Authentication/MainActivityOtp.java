@@ -181,10 +181,12 @@ public class MainActivityOtp extends AppCompatActivity implements View.OnClickLi
                         //   Log.i("working:",response);
                         loading.dismiss();
                         try {
-                            // Log.v("working:", response);
+                            //Log.v("working:", response);
 
                             //Creating the json object from the response
-                            JSONObject jsonResponse = new JSONObject(response).getJSONObject(Config.TAG_RESPONSE);
+                            JSONObject jsonResponse = new JSONObject(response);
+
+                            Log.v("working:", response);
 
                             //If it is success
                             if (jsonResponse.getString(Config.TAG_RESPONSE).equalsIgnoreCase("Success")) {
